@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>加分作業(九宮格)</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 2px;
+    }
+
+    .grid-img {
+      width: 250px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .full-image {
+      width: 400px;
+      border: 2px solid #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title">shrimpi catani</div>
+
+  <div class="content-wrapper">
+    <table>
+      <tr>
+        <td><img src="grid_0_2.png" class="grid-img" alt=""></td>
+        <td><img src="grid_0_1.png" class="grid-img" alt=""></td>
+        <td><img src="grid_1_2.png" class="grid-img" alt=""></td>
+      </tr>
+      <tr>
+        <td><img src="grid_1_0.png" class="grid-img" alt=""></td>
+        <td><img src="grid_2_0.png" class="grid-img" alt=""></td>
+        <td><img src="grid_0_0.png" class="grid-img" alt=""></td>
+      </tr>
+      <tr>
+        <td><img src="grid_2_2.png" class="grid-img" alt=""></td>
+        <td><img src="grid_2_1.png" class="grid-img" alt=""></td>
+        <td><img src="grid_1_1.png" class="grid-img" alt=""></td>
+      </tr>
+    </table>
+
+    <img src="og.png" class="full-image" alt="完整圖片">
+  </div>
+
+</body>
+</html>
